@@ -2,7 +2,7 @@
   "name": "nodejs-express-sequelize-mysql",
   "version": "1.0.0",
   "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
-  "main": "server.js",
+  "main": "media-collection.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,7 @@
     "sequelize",
     "mysql"
   ],
-  "author": "bezkoder",
+  "author": "bezkoder/mhansondev",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
