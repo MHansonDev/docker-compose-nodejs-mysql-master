@@ -9,7 +9,11 @@ module.exports = (sequelize, Sequelize) => {
     published: {
       type: Sequelize.BOOLEAN
     }
-  });
+  },
+    {
+      freezeTableName: true,
+      modelName: 'singularName'
+    });
 
   return Audio;
 };
